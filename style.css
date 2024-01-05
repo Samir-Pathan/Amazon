@@ -11,7 +11,6 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
 }
 
 .nav-logo{
@@ -24,7 +23,7 @@
 
 }
 .border:hover{
-    border: 1.5px solid white;
+    border: 1.3px solid white;
 
 }
 
@@ -33,8 +32,13 @@
     background-size: cover;   
     height: 50px;
     width: 100%;
+    padding: 1px 8px 0px 6px ;
 }
 /** box2 **/
+
+.nav-address{
+    padding: 0px 9px;
+}
 .add-first{
     color: #cccccc;
     font-size: 0.85rem;
@@ -102,6 +106,7 @@
     justify-content: center;
     align-items: center;
     gap: 2px;
+    padding: 0px 9px 5px;
   }
   .lang-selector a{
     font-weight: 700;
@@ -124,11 +129,69 @@ span{
     font-size: 0.85rem;
     font-weight: 700;
 }
+.nav-signin{
+    position: relative;
+    padding: 0px 9px 10px;
+}
 
+.acc-list{
+    background-color: white;
+    color: black;
+    width: 450px;
+    height: 320px;
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 1;    
+    
+}
 
+.top-box{
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.806);
+    margin-top: 25px;
+}
+.acc-signin{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+.bottom-box{
+    display: flex;
+}
+.your-list{
+    margin-left: 25px;
+}
+.your-list a{
+    font-size: 13px;
+}
+.your-list a:hover{
+    color: #febd68;
+}
+.your-acc{
+    margin-left: 120px;
+    margin-bottom: 10px;
+}
+.your-acc a{
+   
+    font-size: 13px;
+}
+.your-acc a:hover{
+    color: #febd68;
+}
+.nav-signin:hover .acc-list{
+    display: block;
+
+}
+.nav-return{
+    padding: 0px 9px 10px;
+}
 .nav-cart {
     font-size: 0.85rem;
     font-weight: 600;
+    padding: 0px 9px 11px;
     
 }
 .nav-cart i{
@@ -144,11 +207,17 @@ span{
     color: white;
     align-items: center;
     justify-content: space-evenly;
+    
+}
+.panel-all{
+    padding: 8px 9px;
+
 }
 
 .panel-ops p{
     display: inline;
-    margin-left: 15px;
+    margin-left: 5px;
+    padding: 7px 7px;
 
 }
 .panel-ops p:hover{
@@ -163,7 +232,9 @@ span{
 .panel-deals{
     font-size: 0.9rem;
     font-weight: 700;
+    padding: 7px 7px;
 }
+
 
 /** hero section **/
 
@@ -190,6 +261,7 @@ span{
 
 .hero-msg a{
     color: #007185;
+    text-decoration: none;
 }
 
 /** shop section **/
@@ -304,6 +376,7 @@ span{
 }
 .start a{
     color: #007185;
+    text-decoration: none;
 }
 
 /** footer section **/
@@ -321,7 +394,10 @@ span{
     align-items: center;
     font-size: 0.85rem;
 }
+.foot-panel1:hover{
+    background: #546E7A;
 
+}
 .foot-panel2{
     background-color: #222f3d;
     color: white;
